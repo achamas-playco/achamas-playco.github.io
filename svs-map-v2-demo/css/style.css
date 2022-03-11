@@ -25,12 +25,13 @@ body {
   font-size: 12px;
   overflow: hidden;
   position: relative;
-  background: radial-gradient(
+  /* background: radial-gradient(
       52.27% 24.31% at -2.27% 78.32%,
       rgba(64, 26, 146, 0.2) 0%,
       rgba(122, 60, 255, 0) 100%
     ),
-    rgba(10, 9, 18, 0.98);
+    rgba(10, 9, 18, 0.98); */
+  background-color: black;
 }
 
 #main {
