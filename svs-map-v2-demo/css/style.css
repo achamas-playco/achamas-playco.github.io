@@ -32,6 +32,8 @@ body {
     ),
     rgba(10, 9, 18, 0.98); */
   background-color: black;
+  height: 100%;
+  width: 100%;
 }
 
 #main {
@@ -43,4 +45,16 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+#debug {
+  display: none;
+  outline: 1px solid white;
+  position: fixed;
+  top: 0;
+  left: 300px;
+  opacity: 0.75;
+  width: 800px;
+  height: 100%;
+  z-index: 100;
 }
